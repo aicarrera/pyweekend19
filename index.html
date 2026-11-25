@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Reto, fechas, talleres y entregas de la 19.ª edición del PyWeekend de ESPOL.">
+<title>PyWeekend 19 · Leyendas urbanas del Ecuador</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<a class="skip" href="#contenido">Saltar al contenido</a>
+<header id="inicio"><div class="wrap nav">
+<a class="brand" href="#inicio">PyWeekend <span>19</span> · ESPOL</a>
+<nav aria-label="Secciones"><ul><li><a href="#reto">Reto</a></li><li><a href="#fechas">Fechas</a></li><li><a href="#entrega">Entrega</a></li><li><a href="#talleres">Talleres</a></li><li><a href="#faq">Preguntas frecuentes</a></li></ul></nav>
+</div></header>
+<main id="contenido">
+<div class="hero">
+<img class="banner" src="assets/banner.png" width="2172" height="724" alt="PyWeekend, 19.ª edición: calle ecuatoriana en pixel art con Cantuña, diablos y la Dama Tapada" fetchpriority="high">
+<div class="wrap"><p class="tag">19.ª edición · ESPOL · 100 % virtual</p><h1>Leyendas urbanas del Ecuador</h1><p class="intro">Adapten una leyenda ecuatoriana a un juego de rol original en Godot. Creen una historia que se pueda jugar de principio a fin en 10 a 15 minutos.</p><a class="button" href="#fechas">Ver fechas clave</a><a class="button secondary" href="#entrega">Preparar mi entrega</a></div>
+</div>
+<section id="reto"><div class="wrap feature">
+<div><h2>El reto</h2><p>Su equipo puede recrear el relato original o reinventarlo desde el punto de vista de otro personaje. La leyenda debe seguir siendo reconocible y estar en el centro del juego.</p><p>Para empezar, pueden explorar historias como <strong>La Dama Tapada</strong> de Guayaquil, <strong>La Caja Ronca</strong> de Ibarra o <strong>Cantuña y el atrio de San Francisco</strong> en Quito. También pueden elegir otra leyenda del Ecuador.</p><p>Construyan un RPG con exploración e interacciones que hagan avanzar la historia. Desarróllenlo en <strong>Godot 4.3 o superior con GDScript</strong>, en la edición estándar.</p></div>
+<figure class="challenge-art"><img src="assets/reto.png" width="367" height="595" loading="lazy" alt="Escena en pixel art: un diablito ofrece a Cantuña un disquete con código de Python en una calle iluminada por un farol."></figure>
+</div></section>
+<section id="fechas"><div class="wrap"><h2>Fechas clave</h2><p>Noviembre y diciembre de 2026 · Horarios de Ecuador continental (UTC−5).</p>
+<ol class="timeline">
+<li><span class="date">11–23 nov · 23:55</span><p><strong>Registro de equipos.</strong> El capitán inscribe al equipo; consulten las directrices para el formulario de inscripción.</p></li>
+<li><span class="date">19–20 nov</span><p><strong>Talleres de Godot y GitHub Pages.</strong> Consulten las <a href="#talleres">grabaciones de los talleres</a>.</p></li>
+<li><span class="date">23 nov–13 dic</span><p><strong>Desarrollo del juego.</strong> Preparen el repositorio y prueben sus avances publicados.</p></li>
+<li><time datetime="2026-12-06T23:55-05:00">6 dic · 23:55</time><p><strong>Prueba obligatoria de despliegue.</strong> Publiquen una versión preliminar jugable en GitHub Pages y registren el enlace. Una sola escena es suficiente.</p></li>
+<li><time datetime="2026-12-13T23:55-05:00">13 dic · 23:55</time><p><strong>Entrega final.</strong> El capitán registra la entrega. El repositorio queda congelado desde el cierre hasta que concluya la Final de Titanes.</p></li>
+<li><span class="date">14–15 dic</span><p><strong>Evaluación y votación del público.</strong> La votación cierra el 15 a las 23:55.</p></li>
+<li><time datetime="2026-12-17">17 dic</time><p><strong>Anuncio de finalistas.</strong> Clasifican los seis juegos mejor calificados por los jueces y el favorito del público.</p></li>
+<li><time datetime="2026-12-18">18 dic</time><p><strong>Final de Titanes.</strong> Los finalistas presentan su juego en una sesión virtual.</p></li>
+</ol>
+<p class="callout" id="directrices"><strong>Obligatorio: registrar la prueba hasta el 6 de diciembre a las 23:55.</strong> Sin este registro no podrán realizar la entrega final. Consulten las directrices enviadas a los equipos inscritos para acceder a los formularios de prueba y entrega; sus enlaces aún no están disponibles en este sitio.</p>
+</div></section>
+<section id="entrega"><div class="wrap"><h2>Lista de entrega</h2><p>Marquen cada paso mientras preparan su proyecto.</p>
+<div class="grid cards">
+<div class="panel"><h3>Repositorio y versión web</h3><ul class="checks">
+<li><label><input type="checkbox"><span>Un repositorio público, creado por el capitán, con todos los integrantes como colaboradores y el proyecto fuente completo de Godot.</span></label></li>
+<li><label><input type="checkbox"><span>Exportación web en <code>/docs/index.html</code> con <strong>Thread Support</strong> desactivado. Prueben el juego publicado en Chrome o Edge de escritorio.</span></label></li>
+<li><label><input type="checkbox"><span><code>README.md</code> con nombre del juego, leyenda, enlace jugable, integrantes y usuarios de GitHub, controles, créditos y licencias.</span></label></li>
+</ul></div>
+<div class="panel"><h3>Versión final y registro</h3><ul class="checks">
+<li><label><input type="checkbox"><span>Release <code>v1.0-pyweekend</code> con el ejecutable de Windows adjunto en un ZIP.</span></label></li>
+<li><label><input type="checkbox"><span>Video promocional en Instagram de máximo un minuto, etiquetando a <a href="https://www.instagram.com/pyweekend_fdp/">@pyweekend_fdp</a>.</span></label></li>
+<li><label><input type="checkbox"><span>Formulario final con enlaces al repositorio, al juego, al release y al video. Incluyan el hash del commit del release, como indica el anexo de las bases. Consulten las directrices para acceder al formulario.</span></label></li>
+</ul></div>
+</div></div></section>
+<section id="talleres"><div class="wrap"><h2>Grabaciones de los talleres</h2><div class="grid cards">
+<article class="panel"><h3>Jueves 19 de noviembre</h3><a href="https://youtu.be/cUUgXo1lJtg">Ver la grabación en YouTube</a></article>
+<article class="panel"><h3>Viernes 20 de noviembre</h3><a href="https://drive.google.com/file/d/1UpQSSM96SYhRQlKqyf0w8nyqRMhPQd73/view?usp=sharing">Ver la grabación en Google Drive</a></article>
+</div></div></section>
+<section id="faq"><div class="wrap"><h2>Preguntas frecuentes</h2>
+<details><summary>¿Quiénes pueden participar?</summary><p>Los equipos tienen de 3 a 4 estudiantes activos de Fundamentos de Programación de ESPOL, con el mismo profesor. Cada profesor puede tener un equipo inscrito y cada equipo debe designar un capitán.</p></details>
+<details><summary>¿Qué pasa si todavía tengo una sola escena?</summary><p>Pueden usarla para la prueba de despliegue si se puede jugar desde GitHub Pages. Registren el enlace antes del 6 de diciembre a las 23:55 para habilitar la entrega final.</p></details>
+<details><summary>¿Qué recursos visuales y sonoros puedo usar?</summary><p>Usen recursos propios o con licencia Creative Commons. Los recursos de pago de terceros quedan fuera de las bases. Incluyan créditos al final del juego para el equipo y los artistas, y mencionen a ESPOL, al PyWeekend y a la leyenda adaptada.</p></details>
+<details><summary>¿Qué hago si GitHub Pages muestra un error o una pantalla negra?</summary><p>Revisen que Pages publique desde <code>/docs</code>, que el archivo de entrada se llame <code>index.html</code> y que la exportación Web tenga <strong>Thread Support</strong> desactivado. Prueben en Chrome o Edge de escritorio.</p></details>
+<details><summary>¿Qué evaluarán los jueces?</summary><p>La adaptación y originalidad de la leyenda, la funcionalidad y usabilidad, la trama y las mecánicas de RPG, las buenas prácticas de programación, la estética y la duración. Los recursos audiovisuales creados por el equipo cuentan como criterio extra.</p></details>
+<details><summary>¿Cómo se presenta el juego en la Final de Titanes?</summary><p>Los equipos finalistas disponen de cinco minutos para explicar el proceso de creación y tres minutos para jugar en vivo desde GitHub Pages. Se presenta la versión del release entregado.</p></details>
+</div></section>
+</main>
+<footer><div class="wrap"><p><strong>PyWeekend · 19.ª edición · ESPOL</strong></p><p><a href="Bases_para_el_PyWeekend_19na.pdf">Consultar las bases completas (PDF)</a> · <a href="https://www.instagram.com/pyweekend_fdp/">@pyweekend_fdp</a></p><p>Formularios y detalles operativos: consulten las directrices de la organización. Los horarios pueden estar sujetos a cambios.</p></div></footer>
+</body>
+</html>
